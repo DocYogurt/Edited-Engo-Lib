@@ -171,7 +171,7 @@ function library:CreateMain(title, description, keycode)
     Main.Parent = EngoUI
     Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Main.Position = UDim2.new(0.54207927, 0, 0.307602346, 0)
-    Main.Size = UDim2.new(0, 550, 0, 397)
+    Main.Size = UDim2.new(0, 300, 0, 300)
     Main.Active = true
     Main.Draggable = true
 
