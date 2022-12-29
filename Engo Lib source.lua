@@ -201,7 +201,7 @@ function library:CreateMain(title, description, keycode)
     Topbar.Parent = Main
     Topbar.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
     Topbar.BackgroundTransparency = 1.000
-    Topbar.Size = UDim2.new(0, 550, 0, 53)
+    Topbar.Size = UDim2.new(0, 300, 0, 53)
 
     Info.Name = "Info"
     Info.Parent = Topbar
@@ -263,7 +263,7 @@ function library:CreateMain(title, description, keycode)
         Tab.BackgroundTransparency = 1.000
         Tab.BorderSizePixel = 0
         Tab.Position = UDim2.new(0.289090902, 0, 0.151133507, 0)
-        Tab.Size = UDim2.new(0, 375, 0, 309)
+        Tab.Size = UDim2.new(0, 300, 0, 309)
         Tab.CanvasSize = UDim2.new(0, 0, 0, 0)
         Tab.ScrollBarThickness = 0
         Tab.TopImage = ""
@@ -856,7 +856,7 @@ function library:CreateMain(title, description, keycode)
             Dropdown.BackgroundColor3 = theme.LightContrast
             Dropdown.BackgroundTransparency = 0
             Dropdown.Position = UDim2.new(0, 0, 0.158576056, 0)
-            Dropdown.Size = UDim2.new(0, 375, 0, 50)
+            Dropdown.Size = UDim2.new(0, 30, 0, 50)
             Dropdown.Font = Enum.Font.SourceSans
             Dropdown.Text = ""
             Dropdown.TextColor3 = Color3.fromRGB(0, 0, 0)
